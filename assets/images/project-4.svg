@@ -1,0 +1,28 @@
+<svg viewBox="0 0 600 300" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg4" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#202022"/>
+      <stop offset="100%" stop-color="#121212"/>
+    </linearGradient>
+    <radialGradient id="glow4" cx="85%" cy="15%" r="60%">
+      <stop offset="0%" stop-color="#ffdb70" stop-opacity="0.16"/>
+      <stop offset="100%" stop-color="#ffdb70" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="600" height="300" fill="url(#bg4)"/>
+  <rect width="600" height="300" fill="url(#glow4)"/>
+  <rect x="1" y="1" width="598" height="298" fill="none" stroke="#383838" stroke-width="1"/>
+  <path d="M24 24 L24 48 M24 24 L48 24" stroke="#ceb15a" stroke-width="2" fill="none" opacity="0.8"/>
+  <path d="M576 276 L576 252 M576 276 L552 276" stroke="#ceb15a" stroke-width="2" fill="none" opacity="0.8"/>
+  
+  <g transform="translate(455,25)" opacity="0.9">
+    <circle cx="35" cy="35" r="32" fill="none" stroke="#383838" stroke-width="10"/>
+    <circle cx="35" cy="35" r="32" fill="none" stroke="#ffdb70" stroke-width="10" stroke-dasharray="140 201" stroke-linecap="round" transform="rotate(-90 35 35)"/>
+  </g>
+  <text x="24" y="190" font-family="Poppins, Segoe UI, Arial, sans-serif" font-size="27" font-weight="600" fill="#ffffff">Netflix Visualization</text>
+  
+    <rect x="24" y="252" width="70" height="26" rx="13" fill="none" stroke="#ceb15a" stroke-width="1" opacity="0.55"/>
+    <text x="59.0" y="269" font-family="Poppins, Segoe UI, Arial, sans-serif" font-size="12" fill="#d6d6d6" text-anchor="middle">Data Viz</text>
+    <rect x="104" y="252" width="56" height="26" rx="13" fill="none" stroke="#ceb15a" stroke-width="1" opacity="0.55"/>
+    <text x="132.0" y="269" font-family="Poppins, Segoe UI, Arial, sans-serif" font-size="12" fill="#d6d6d6" text-anchor="middle">Python</text>
+</svg>
